@@ -238,7 +238,7 @@ int main(int argc, char **argv)
                 perror("Socket send failed");
                 goto LABEL_CLEAN_EXIT;
             } else {
-              //printf("Echo sent\n\n\n");
+              printf("Echo sent\n\n\n");
             }
         }
     }
