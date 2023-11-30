@@ -10,7 +10,7 @@ Based on https://github.com/thomasfla/Linux-ESPNOW
 ## Before using this code
 Do not forget to turn on monitor mode and choose the right channel on your wireless interface card.
 
-Here is a exmaple on how to do it :
+Here is a example on how to do it :
 ```
 sudo ifconfig wlps20 down
 sudo iwconfig wlps20 mode monitor
