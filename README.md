@@ -12,10 +12,10 @@ Do not forget to turn on monitor mode and choose the right channel on your wirel
 
 Here is a example on how to do it :
 ```
-sudo ifconfig wlps20 down
-sudo iwconfig wlps20 mode monitor
-sudo ifconfig wlps20 up
-sudo iwconfig wlps20 channel 1
+sudo ifconfig wlp2s0 down
+sudo iwconfig wlp2s0 mode monitor
+sudo ifconfig wlp2s0 up
+sudo iwconfig wlp2s0 channel 1
 ```
 
 Otherwise you can use the provided launcher
@@ -24,7 +24,7 @@ Otherwise you can use the provided launcher
 sudo ./launch.sh wlps20
 ```
 
-Replace `wlps20` with your actual WiFi interface.
+Replace `wlp2s0` with your actual WiFi interface.
 
 The application assumes full that text messages are received and print them to standard output.
 
